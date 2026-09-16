@@ -1,7 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  ...(process.env.VERCEL ? { output: "export" as const } : {}),
 };
 
 export default nextConfig;
