@@ -91,7 +91,7 @@ export default function Home() {
       <section className="section shell" id="services">
         <div className="section-heading">
           <p className="kicker">Services</p>
-          <h2>Practical Python work for repeatable workflows.</h2>
+          <h2>Python tools for repetitive business workflows.</h2>
         </div>
         <div className="service-list">
           {services.map((service) => (
@@ -111,7 +111,7 @@ export default function Home() {
       <section className="section projects-section" id="projects">
         <div className="shell section-heading project-heading">
           <p className="kicker">Projects</p>
-          <h2>Evidence from real Python workflows.</h2>
+          <h2>Projects with real outputs.</h2>
           <p>Each project links to its public source and shows output produced by the project itself.</p>
         </div>
         <div className="shell project-list">

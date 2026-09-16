@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://personal-portfolio-alpha-three-36.vercel.app/sitemap.xml
